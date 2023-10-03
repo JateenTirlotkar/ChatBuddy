@@ -1,78 +1,28 @@
-<div align="center">
-<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
+# Grp14_Apsit-Students-Club
+Title of project
+Apsit Students Club
 
-# StudyBuddy
-</div>
+Group Members:
+Jateen Tirlotkar
+Devesh Zope
+Sahil Vishavakarma
+Siddhesh Sawant
 
-### Cloning the repository
-
---> Clone the repository using the command below :
-```bash
-git clone https://github.com/divanov11/StudyBud.git
-
-```
-
---> Move into the directory where we have the project files : 
-```bash
-cd StudyBud
-
-```
-
---> Create a virtual environment :
-```bash
-# Let's install virtualenv first
-pip install virtualenv
-
-# Then we create our virtual environment
-virtualenv envname
-
-```
-
---> Activate the virtual environment :
-```bash
-envname\scripts\activate
-
-```
-
---> Install the requirements :
-```bash
-pip install -r requirements.txt
-
-```
-
-#
-
-### Running the App
-
---> To run the App, we use :
-```bash
-python manage.py runserver
-
-```
-
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
-
-#
-
-### App Preview :
-
-<table width="100%"> 
-<tr>
-<td width="50%">      
-&nbsp; 
-<br>
-<p align="center">
-  Feed Home
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
-</td> 
-<td width="50%">
-<br>
-<p align="center">
-  Room Conversation Preview
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
-</td>
-</table>
-
-
+Description:
+In this phase, a logical system is built which fulfills the given requirements. The design phase 
+of software development deals with transforming the client’s requirements into a logically 
+working system. Normally, design is performed by the following two steps.
+1. Primary Design Phase: 
+In this phase, the system is designed at the block level. The blocks are created based
+on analysis done in the problem identification phase. Different blocks are created 
+for different functions emphasis is put on minimizing the information flow between 
+blocks. Thus, all activities which require more interaction are kept in one block.
+2. Secondary Design Phase:
+In the second phase, the detailed design of every block is performed. The general tasks 
+involved in the design process are the following:
+1. Design various blocks for overall system processes.
+2. Design smaller, compact and workable modules in each block. 
+3. Design various database structures. 
+4. Specify details of programs to achieve the desired functionality. 
+5. Design the form of inputs, and outputs of the system. 
+6. Perform documentation of the design.
